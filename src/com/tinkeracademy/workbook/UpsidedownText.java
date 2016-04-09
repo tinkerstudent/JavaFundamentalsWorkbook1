@@ -30,21 +30,21 @@ public class UpsidedownText {
 				"[",      "}",      "{",      ">",      "<",      "\u214B", "\u203E", " "
 		};
 		
-		String sentence = "Hey, Look, Greg has a purse!"; // Step 01
-		String upsidedownSentence = ""; // Step 02
-		for (int i = 0; i < sentence.length(); i++ /*Step 03*/) { 
-			char ch = sentence.charAt(i); // Step 04
-			String s = String.valueOf(ch); // Step 05
-			for (int j = 0; j < up.length; j++ /*Step 06*/) {
-				String u = up[j]; // Step 07
-				boolean isEquals = u.equals(s); // Step 08
-				if (isEquals /*Step 09*/) { 
-					String rev = down[j]; // Step 10
-					upsidedownSentence = rev + upsidedownSentence; // Step 11
-				}
-			}
-		}
-		System.out.println(upsidedownSentence); // Step 12
+		
+		
+		 
+			
+			
+		
+		
+		
+		 
+		
+		
+		
+		
+		
+		
 	}
 	
 }
